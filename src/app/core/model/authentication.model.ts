@@ -1,4 +1,4 @@
-declare namespace Authentication {
+export namespace Authentication {
   export interface LoginPayload {
     username: string;
     password: string;

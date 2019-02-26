@@ -1,4 +1,5 @@
 import { EventEmitter, Injectable } from '@angular/core';
+import { ErrorModel } from '../model/error.model';
 
 @Injectable()
 export class ErrorMessageService {

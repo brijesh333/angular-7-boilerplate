@@ -1,4 +1,4 @@
-declare namespace ErrorModel {
+export namespace ErrorModel {
   export interface RootObject {
     statusCode: number;
     error: string;
