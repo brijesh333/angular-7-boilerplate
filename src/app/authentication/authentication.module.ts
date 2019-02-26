@@ -11,14 +11,14 @@ import { SignupComponent } from '@app/authentication/signup/signup.component';
 import { SharedModule } from '@app/shared';
 
 @NgModule({
-  imports: [
-    FormsModule,
-    ReactiveFormsModule,
-    CommonModule,
-    NgbModule,
-    SharedModule,
-    RouterModule.forChild(AuthenticationRoutes)
-  ],
-  declarations: [NotFoundComponent, SignupComponent, LoginComponent]
+    imports: [
+        FormsModule,
+        ReactiveFormsModule,
+        CommonModule,
+        NgbModule,
+        SharedModule,
+        RouterModule.forChild(AuthenticationRoutes)
+    ],
+    declarations: [NotFoundComponent, SignupComponent, LoginComponent]
 })
-export class AuthenticationModule {}
+export class AuthenticationModule { }

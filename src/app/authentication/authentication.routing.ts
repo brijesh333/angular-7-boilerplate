@@ -5,21 +5,21 @@ import { LoginComponent } from '@app/authentication/login/login.component';
 import { SignupComponent } from '@app/authentication/signup/signup.component';
 
 export const AuthenticationRoutes: Routes = [
-  {
-    path: '',
-    children: [
-      {
-        path: '404',
-        component: NotFoundComponent
-      },
-      {
-        path: 'login',
-        component: LoginComponent
-      },
-      {
-        path: 'signup',
-        component: SignupComponent
-      }
-    ]
-  }
+    {
+        path: '',
+        children: [
+            {
+                path: '404',
+                component: NotFoundComponent
+            },
+            {
+                path: 'login',
+                component: LoginComponent
+            },
+            {
+                path: 'signup',
+                component: SignupComponent
+            }
+        ]
+    }
 ];

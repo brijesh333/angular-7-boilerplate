@@ -13,17 +13,17 @@ import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [
-    CommonModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    NgbModule.forRoot(),
-    RouterModule.forRoot(AppRoutes),
-    CoreModule,
-    SharedModule
-  ],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        CommonModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        NgbModule.forRoot(),
+        RouterModule.forRoot(AppRoutes),
+        CoreModule,
+        SharedModule
+    ],
+    bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

@@ -4,8 +4,8 @@ import { BaseAPIClass } from '@app/core/class/baseAPI.class';
 
 @Injectable()
 export class UserService extends BaseAPIClass {
-  constructor(protected httpClient: HttpClient) {
-    super(httpClient);
-    this.baseUrl = '/user';
-  }
+    constructor(protected httpClient: HttpClient) {
+        super(httpClient);
+        this.baseUrl = '/user';
+    }
 }

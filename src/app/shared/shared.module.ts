@@ -11,30 +11,30 @@ import { ButtonLoaderComponent } from '@app/shared/button-loader';
 import { FormErrorWrapperComponent } from '@app/shared/form-error-wrapper/form-error-wrapper.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    RouterModule,
-    NgbModule.forRoot(),
-    ReactiveFormsModule
-  ],
-  declarations: [
-    SpinnerComponent,
-    BreadcrumbComponent,
-    BlankComponent,
-    FullComponent,
-    ButtonLoaderComponent,
-    FormErrorWrapperComponent
-  ],
-  exports: [
-    SpinnerComponent,
-    BreadcrumbComponent,
-    BlankComponent,
-    FullComponent,
-    ButtonLoaderComponent,
-    FormErrorWrapperComponent
-  ],
-  entryComponents: [],
-  providers: []
+    imports: [
+        CommonModule,
+        FormsModule,
+        RouterModule,
+        NgbModule.forRoot(),
+        ReactiveFormsModule
+    ],
+    declarations: [
+        SpinnerComponent,
+        BreadcrumbComponent,
+        BlankComponent,
+        FullComponent,
+        ButtonLoaderComponent,
+        FormErrorWrapperComponent
+    ],
+    exports: [
+        SpinnerComponent,
+        BreadcrumbComponent,
+        BlankComponent,
+        FullComponent,
+        ButtonLoaderComponent,
+        FormErrorWrapperComponent
+    ],
+    entryComponents: [],
+    providers: []
 })
-export class SharedModule {}
+export class SharedModule { }
