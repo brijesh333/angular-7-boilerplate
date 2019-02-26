@@ -44,8 +44,8 @@ describe('DashboardComponent', () => {
         expect(component).toBeTruthy();
     });
 
-    it('should return an Observable<Array<Video>>',
-        inject([DataProviderService, XHRBackend], (dataProviderService:DataProviderService, mockBackend:any) => {
+    it('should return an Observable<Array<name>>',
+        inject([DataProviderService, XHRBackend], (dataProviderService:DataProviderService, mockBackend:MockBackend) => {
             const mockResponse = {
                 data: [
                     { id: 0, name: 'abc' },
