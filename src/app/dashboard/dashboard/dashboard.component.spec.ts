@@ -4,12 +4,12 @@ import { DashboardComponent } from './dashboard.component';
 import { DataProviderService } from '../services/data-provider.service';
 import { MockBackend } from '@angular/http/testing';
 import {
-    HttpModule,
-    Http,
     Response,
     ResponseOptions,
     XHRBackend
 } from '@angular/http';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('DashboardComponent', () => {
     let component: DashboardComponent;
@@ -21,7 +21,8 @@ describe('DashboardComponent', () => {
                 DashboardComponent
             ],
             imports: [
-                HttpModule
+                HttpClientModule,
+                // HttpClientTestingModule
             ],
             providers: [
                 DataProviderService,

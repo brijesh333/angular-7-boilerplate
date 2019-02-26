@@ -9,7 +9,7 @@ import { Http } from '@angular/http';
 export class DataProviderService {
 
     constructor(
-        private http: Http
+        private http: HttpClient
     ) { }
 
     fetchdata() {
